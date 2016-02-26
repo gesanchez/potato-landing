@@ -1,0 +1,192 @@
+.side1{
+  background-color: @side1-background-color;
+  height: 100%;
+  width: 100%;
+  color: @side-color;
+
+  & .header{
+    padding-top: 20px;
+
+    & .icon{
+      font-size: 50px;
+    }
+
+    & span{
+      font-size: 25px;
+      font-weight: bold;
+    }
+
+    & ul{
+      list-style: none;
+      margin-top: 15px;
+      & li{
+        list-style: none;
+        display: inline;
+        margin-left: 4px;
+        margin-right: 4px;
+        font-size: 20px;
+
+        &.circle{
+          .border-radius(50px);
+          border: 1px solid #ffffff;
+          padding: 5px;
+        }
+      }
+    }
+
+    h1{
+        margin-top: 100px;
+    }
+
+    img {
+      width: 400px;
+      margin-top: 50px;
+    }
+  }
+}
+
+.side2{
+  background-color: @side2-background-color;
+  height: 100%;
+  width: 100%;
+  color: @side2-color;
+  text-align: center;
+
+  & h1{
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  & p{
+    font-size: 20px;
+  }
+
+  & i{
+    font-size: 50px;
+  }
+
+  img {
+    width: 400px;
+    margin-top: 50px;
+  }
+
+}
+
+.side3{
+  background-color: desaturate(@side3-background-color, 30%);
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  color: @side3-color;
+  & h1{
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  & p{
+    font-size: 20px;
+  }
+
+  img{
+    width: 400px;
+    margin-top: 10px;
+  }
+}
+
+.side4{
+  background-color: @side4-background-color;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  color: @side4-color;
+  & h1{
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  & p{
+    font-size: 20px;
+  }
+
+  & .icon_potato1{
+    font-size: 150px;
+  }
+
+  & .icon_potato4{
+    font-size: 160px;
+  }
+
+  & .row.second{
+    margin-top: 100px;
+  }
+}
+
+.side5{
+  background-color: @side5-background-color;
+  height: 100%;
+  width: 100%;
+  color: @side5-color;
+  text-align: center;
+
+  & h1{
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  & .order-con{
+    margin-top: 50px;
+    & span{
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 30px;
+      padding-right: 30px;
+      .border-radius(50px);
+      border: 1px solid desaturate(@side3-background-color, 30%);
+      color: desaturate(@side3-background-color, 30%);
+    }
+
+    & > div{
+      margin-top: 15px;
+    }
+  }
+
+  & .icon_potato1{
+    font-size: 100px;
+    margin-top: 25px;
+  }
+
+  & .icon_potato5{
+    font-size: 150px;
+    margin-top: 10px;
+  }
+
+  & .icon_potato3{
+    font-size: 150px;
+    margin-top: 10px;
+  }
+}
+
+.footer{
+  background-color: @footer-background-color;
+  height: 50px;
+  width: 100%;
+  color: @footer-color;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 14px;
+
+  & .icon{
+    color: rgb(216, 0, 39);
+  }
+
+  & ul{
+    list-style: none;
+    margin-top: 5px;
+    & li{
+      list-style: none;
+      display: inline;
+      margin-left: 4px;
+      margin-right: 4px;
+    }
+  }
+}
